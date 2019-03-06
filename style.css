@@ -1,0 +1,142 @@
+body {
+  background-color: #517664;
+}
+
+/* banner */
+
+#banner {
+  background-color: #F1F2EB;
+  color: #848C8E;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'BioRhyme', serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* container row */
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* question container*/
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: #F1F2EB;
+  border: 1px solid #F1F2EB;
+  border-radius: 5px;
+  width: 600px;
+}
+
+#question1 {
+  margin: 2rem;
+  color: #517664;
+  font-family: 'Space Mono', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* hint */
+.hint {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F1F2EB;
+  text-align: center;
+  font-family: 'Space Mono', serif;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #517664;
+}
+
+.hint-box{
+  width: 100%;
+  margin: 1rem;
+}
+
+.hint1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* answers */
+.answer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.answer-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.answer-container li {
+  width: 100%;
+  margin-top: 1rem;
+  font-family: 'Space Mono', serif;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #F1F2EB;
+}
+
+.wrong-answer1 {
+  width: 100%;
+  background-color: #848C8E;
+  padding: 1rem 6rem;
+  border: 1px solid #848c8e;
+  border-radius: 5px;
+}
+
+.wrong-answer2 {
+  width: 100%;
+  background-color: #A4C2A5;
+  padding: 1rem 6rem;
+  border: 1px solid #A4C2A5;
+  border-radius: 5px;
+}
+
+.correct-answer {
+  width: 100%;
+  background-color: #848C8E;
+  padding: 1rem 6rem;
+  border: 1px solid #848c8e;
+  border-radius: 5px;
+}
+
+.wrong-answer3 {
+  width: 100%;
+  background-color: #A4C2A5;
+  padding: 1rem 6rem;
+  border: 1px solid #A4C2A5;
+  border-radius: 5px;
+}
+
+/* result */
+.far {
+  font-size: 4rem;
+  color: #517664;
+  margin-top: 2rem;
+}
+
+.smile {
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.frown {
+  display: none;
+}
+
+
