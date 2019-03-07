@@ -21,6 +21,7 @@ body {
   align-items: center;
 }
 
+
 /* question container*/
 .question-container {
   display: flex;
@@ -53,9 +54,16 @@ body {
   color: #517664;
 }
 
+
 .hint-box{
   width: 100%;
   margin: 1rem;
+
+}
+
+.hint-box p {
+  text-align: center;
+  margin-right: 1rem;
 }
 
 .hint1 {
@@ -115,6 +123,13 @@ body {
   border-radius: 5px;
 }
 
+.correct-answer1 {
+  width: 100%;
+  background-color: #848C8E;
+  padding: 1rem 6rem;
+  border: 1px solid #848c8e;
+  border-radius: 5px;
+}
 .wrong-answer3 {
   width: 100%;
   background-color: #A4C2A5;
@@ -137,6 +152,22 @@ body {
 
 .frown {
   display: none;
+  margin-bottom: 2rem;
 }
 
+/* button */
+.button,
+.button1,
+.button2{
+  margin: 2rem 0rem;
+  color: #F1F2EB;
+  background-color: #517664;
+  border: 1px solid #A4C2A5;
+}
 
+.button:hover,
+.button1:hover,
+.button2:hover {
+  background-color: #A4C2A5;
+  border: 1px solid #A4C2A5;
+}
