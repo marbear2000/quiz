@@ -52,6 +52,8 @@ $(document).ready(() => {
     $('.container2').show(600);
   });
 
+
+
   $('.button1').on('click', () => {
     $('.wrong-answer1').show();
     $('.wrong-answer2').show();
